@@ -30,7 +30,4 @@ jobs:
         with:
           name: remark-lint-report
           path: public/
-      - uses: actions/download-artifact@v3
-        with:
-          name: remark-lint-report
-          path: public/
+      
